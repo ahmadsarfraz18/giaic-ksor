@@ -1,8 +1,8 @@
 ---
 format: 2
 name: giaic-ksor
-title: KSoR
-description: What a Knowledge System of Record is, how a project climbs the governance ladder, and which surfaces publish the same governed knowledge.
+title: GIAIC KSoR Sandbox
+description: A minimal sandbox learning and practice record for testing KSoR mechanics, MCP tools, and document governance workflows.
 toolchain:
   requires: ">=0.0.60"
   scaffolded: "0.0.60"
@@ -28,38 +28,40 @@ database:
 # version: 0.1.0
 ---
 
-This record is authoritative for what a Knowledge System of Record is, how a
-project climbs the governance ladder, and which surfaces the same governed
-knowledge is published through. It does not cover the CLI's release history or
-the internals of the retrieval kernel.
+This record is authoritative for **the sandbox itself** — what this practice
+record contains, how a document climbs the KSoR governance ladder within it,
+and how the same governed knowledge is published to people and to agents. It
+is a learning record: the corpus exists to exercise KSoR mechanics, the MCP
+tools and the document governance workflows, nothing more.
 
-Write and govern the knowledge once; every surface here derives from it. When a
-slide deck, a wiki page or a model's memory disagrees with this record, this
-record wins.
+Everything in `knowledge/` is a **sandbox sample** — practice technical notes
+and practice policies written to test the mechanics. None of it is a real
+company policy, a production codebase, or anyone's operating knowledge.
 
-## This is a starter, and it is yours to replace
+## What belongs here
 
-Everything above describes KSoR itself. It ships filled in so that a fresh
-project has a real governed corpus on the first `npm run dev` — five approved
-documents, three of them inside a folder, and one carrying a summary
-companion — instead of an empty shelf and a placeholder.
-The documents live in `knowledge/`; delete them as your own knowledge arrives.
+Sample technical notes and practice policies, written or approved by the owner,
+plus whatever else the mechanics need exercised. The audience is always
+`public`.
 
-Be deliberate about replacing it, because a starter that describes the wrong
-thing describes it _everywhere_. Three things here are read by every surface:
+## What does not belong here
 
-- **`title:`** is the display title — the human name every page leads with and
-  the heading of the record's root index. The machine identity stays
-  `giaic-ksor` in `name:`, and that is what citations and `llms.txt` use.
-- **`description:`** is one sentence that seeds `llms.txt` and the MCP
-  discovery document.
-- **This body** is the MCP server's instructions, handed in full to every
-  connecting agent; its first paragraph is this record's scope, which the site
-  publishes. A record published with it unchanged will tell an agent — quite
-  accurately, and quite uselessly for you — that it is authoritative for what
-  a Knowledge System of Record is.
+- Production software codebases.
+- Private credentials or secrets.
+- Actual organization policies, or real business data.
+- General trivia or broad world knowledge outside the sample test documents.
 
-Ask your coding agent to run the **intake interview** (it knows how — see
-`.agents/skills/intake-interview/`), answer its questions, and let it write
-this document with you. Replace those three and every surface follows,
-because every surface reads them from here.
+When an agent asks about any of those, the correct answer from this record is
+**"not in this corpus"** — never a guess, and never something the agent reached
+for from its own memory.
+
+## Audience
+
+`public` only. Every reader sees every document, and the site's static export
+is governed the same way.
+
+## Strictness
+
+A question this record does not cover is declined, firmly — **"not in this
+corpus"** is a correct answer, not a failure. Nothing here is loaded with
+authority it was never given.

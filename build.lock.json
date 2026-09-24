@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "build_id": "sha256:853e40d4451545e500b3efc6f1d784fa0909a15438853a0e4542648a2c043cbe",
+  "ksor_version": "0.0.60",
+  "okf": {
+    "version": "0.2",
+    "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
+    "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
+  },
+  "source_commit": "2d49cfe3100c7c285af13ef820e0a83401bf6dfc",
+  "dirty": true,
+  "as_of": "2026-09-24T05:22:20.717Z",
+  "drafts": "hidden",
+  "instance_sha256": "0d0c6b845eec17ca57a6abc025261e1e0110102ec5bcd25bda43fd4689132ae1",
+  "policy_sha256": "6187eeee91e470de99bb659d615b7781d0617978e29c27ebf105dc5985fff14e",
+  "people_sha256": "679d6146909e2ecd13100ad02b5722c43328f22833ad131aa4d9c892a28e98d4",
+  "ledger_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "ledger_entries": [],
+  "audiences": {
+    "registry": [],
+    "viewers": {
+      "public": [
+        "public"
+      ]
+    }
+  },
+  "documents": [
+    {
+      "path": "practice-notes/sample-draft-note.md",
+      "sha256": "bdc7409d1b5a1647349b4735407053c937daba64408a668d0236146f22b79439",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "practice-notes/sample-technical-note.md",
+      "sha256": "3cb70345418464c135d9b69911ac043b9bde4d75db7bcc08d719064468fb2cba",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "practice-policies/sample-practice-policy.md",
+      "sha256": "1c871139ffb995546c5878fbe7c2ee4bdced0336055f544fce46f973ece20071",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "sandbox-scope.md",
+      "sha256": "46e800b6c76c8a33f50ff8ad5950766e89b8a3afabcc07454e444787cd79d7bb",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    }
+  ],
+  "companions": [],
+  "assets": [],
+  "indexes": [
+    {
+      "path": "index.md",
+      "sha256": "597f38b2aee5541bb2e9debed26332c64a61f62463d50b4abdbcd9961349a923"
+    },
+    {
+      "path": "practice-notes/index.md",
+      "sha256": "5e2b13a257adb3d3d45224a07e005f8f7ae585c626e0d1209126814faba6e60d"
+    },
+    {
+      "path": "practice-policies/index.md",
+      "sha256": "590de49dc1e192a6fd8ae9e2ef58e8288400c82a0f26563348c0f408fb6bfb4c"
+    }
+  ],
+  "bundles": [
+    {
+      "viewer": "public",
+      "sha256": "61fc4059adf6a149e654b32ff226654a1d857849d3762d67fa0ddccebcaaff2a",
+      "files": 7
+    }
+  ]
+}

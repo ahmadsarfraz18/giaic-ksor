@@ -2,8 +2,8 @@
 okf_version: "0.2"
 ---
 
-# KSoR
+# GIAIC KSoR Sandbox
 
-* [What a Knowledge System of Record is](what-is-a-ksor.md) - The authoritative, governed knowledge layer humans, agents and software operate from.
-* [The governance ladder](governance-ladder.md) - Level 0 works immediately; a project climbs only as far as its domain needs.
-* [Surfaces](surfaces/)
+* [Practice notes](practice-notes/)
+* [Practice policies](practice-policies/)
+* [What this sandbox is](sandbox-scope.md) - The scope of this practice record — a sandbox for learning KSoR mechanics, MCP tools, and document governance workflows.
