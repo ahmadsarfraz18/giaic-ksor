@@ -15,11 +15,12 @@ toolchain:
 # record, then `npm run serve`. Serving does not publish — that is deliberate, and
 # skipping refresh serves nothing.
 # Nothing else here is required:
-# `embedding:` already defaults to Gemini at 1536 dimensions, and leaving
-# `retrieval:` out starts you with the abstention gate off and honest about it
-# (turn it on afterwards with `ksor calibrate`, once the record is serving).
+# `embedding:` already defaults to Gemini at 1536 dimensions.
 database:
   dsn_env: KSOR_DB_URL
+retrieval:
+  vector_floor: 0.663   # calibrated 2026-09-24 on generation 2, model gemini-embedding-001/d1536, door: queries-file
+  floor_digest: 8bfb07d0e6f5
 # Where agents reach this record's MCP surface, and the semver it publishes as.
 # Both go into /.well-known/mcp/server.json, the document an agent reads to
 # DISCOVER this record instead of being told the URL. Leave mcp_url out until
