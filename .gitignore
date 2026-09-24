@@ -31,4 +31,8 @@ system/site/public/sims/
 .env*
 !.env.example
 
+# the served door's stdout/stderr capture (npm run serve > serve.log)
+serve.log
+serve.log.err
+
 .DS_Store
