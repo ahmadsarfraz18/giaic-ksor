@@ -36,3 +36,6 @@ serve.log
 serve.log.err
 
 .DS_Store
+
+# vercel CLI — project link (id + git remote, no secrets) and its local env
+.vercel
